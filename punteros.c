@@ -7,6 +7,7 @@ main(){
 	int *puntint = varint;
 	printf("Puntero hacia un entero\n\nContenido de la variable.- %p\nDireccion en memoria.- %p\nValor de la variable.- %i",puntint, &puntint,puntint);
 	printf("\n-----------------\n");
+	fflush(stdin);
 	char varchar;
 	printf("Escribe un caracter:  ");
 	scanf("%c",&varchar);
