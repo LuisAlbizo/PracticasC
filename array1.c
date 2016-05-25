@@ -10,7 +10,7 @@ main(){
 		puntos+=calificacion;
 	}
 	system("clear");
-	printf("El promedio es: %i\n", promedio(puntos, materias));
+	printf("El promedio es: %i\n\n", promedio(puntos, materias));
 }
 
 promedio(int puntos, int materias){

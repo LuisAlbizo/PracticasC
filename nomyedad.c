@@ -5,7 +5,7 @@ char nombre;
 int edad;
 printf("Como te llamas? ");
 scanf("%s", &nombre);
-printf("Cuantos años tienes? ");	
+printf("Cuantos anos tienes? ");	
 scanf("%i", &edad);
-printf("Hola %s, tienes %i años", &nombre, edad);		
+printf("Hola %s, tienes %i anos\n", &nombre, edad);		
 }
